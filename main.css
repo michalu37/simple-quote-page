@@ -1,0 +1,24 @@
+/* === STYLE FOR FULL COVER MAIN PAGE === */
+body {
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background-image: url(assets/freedom%202.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+}
+.wrapper {
+  display: table-cell;
+  vertical-align: middle
+}
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem;
+}
+.author {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  font-style: italic;
+}
